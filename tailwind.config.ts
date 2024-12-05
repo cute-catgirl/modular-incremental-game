@@ -8,9 +8,7 @@ export default {
 		fontFamily: {
 			sans: ['Inter', 'serif']
 		},
-		extend: {
-
-		}
+		extend: {}
 	},
 
 	plugins: [typography]

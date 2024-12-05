@@ -8,6 +8,6 @@
 	<title>{metadata.title}</title>
 </svelte:head>
 
-<main class="bg-slate-100 dark:bg-slate-800 w-screen h-screen">
+<main class="h-screen w-screen bg-slate-100 dark:bg-slate-800">
 	{@render children()}
 </main>

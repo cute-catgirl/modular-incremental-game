@@ -1,29 +1,29 @@
 {
-    "index": 3,
-    "name": "Three",
-    "description": "Increase the cap of the first two upgrades by 1",
-    "price": {
-        "resources": {
-            "squares": 100
-        },
-        "scaling": 2
-    },
-    "effects": [
-        {
-            "type": "increase_cap",
-            "target": "upgrade_one",
-            "amount": 1
-        },
-        {
-            "type": "increase_cap",
-            "target": "upgrade_two",
-            "amount": 1
-        }
-    ],
-    "maxPurchases": 5,
-    "requirements": {
-        "resources": {
-            "squares": 50
-        }
-    }
+	"index": 3,
+	"name": "Three",
+	"description": "Increase the cap of the first two upgrades by 1",
+	"price": {
+		"resources": {
+			"squares": 100
+		},
+		"scaling": 2
+	},
+	"effects": [
+		{
+			"type": "increase_cap",
+			"target": "upgrade_one",
+			"amount": 1
+		},
+		{
+			"type": "increase_cap",
+			"target": "upgrade_two",
+			"amount": 1
+		}
+	],
+	"maxPurchases": 5,
+	"requirements": {
+		"resources": {
+			"squares": 50
+		}
+	}
 }
