@@ -1,3 +1,8 @@
 {
+    "metadata": {
+        "title": "square++",
+        "author": "Mae",
+        "version": "0.0.1"
+    },
     "mainResourceID": "squares"
 }
