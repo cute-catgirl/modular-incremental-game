@@ -1,0 +1,25 @@
+{
+
+    "index": 1,
+    "name": "One",
+    "description": "Increases square gain by 0.1 per second",
+    "price": {
+        "resources": {
+            "squares": 2
+        },
+        "scaling": 1.5
+    },
+    "effects": [
+        {
+            "type": "increase_gain",
+            "target": "squares",
+            "amount": 0.1
+        }
+    ],
+    "maxPurchases": 5,
+    "requirements": {
+        "resources": {
+            "squares": 1
+        }
+    }
+}

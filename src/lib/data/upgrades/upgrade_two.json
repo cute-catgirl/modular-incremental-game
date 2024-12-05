@@ -1,0 +1,24 @@
+{
+    "index": 2,
+    "name": "Two",
+    "description": "Double square gain",
+    "price": {
+        "resources": {
+            "squares": 10
+        },
+        "scaling": 5
+    },
+    "effects": [
+        {
+            "type": "multiply_gain",
+            "target": "squares",
+            "amount": 2
+        }
+    ],
+    "maxPurchases": 5,
+    "requirements": {
+        "resources": {
+            "squares": 5
+        }
+    }
+}

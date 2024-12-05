@@ -1,0 +1,8 @@
+{
+    "name": "Squares",
+    "icon": {
+        "type": "unicode",
+        "value": "▢"
+    },
+    "baseRate": 0.1
+}
